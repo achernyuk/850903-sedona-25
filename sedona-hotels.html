@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+     <meta charset="utf-8">
+     <title>Добро пожаловать в Седону</title>
+  </head>
+  <body>
+	  <header class="main-heder">
+		  <a class="header-logo" href="index.html">
+			  <img src="img/logo.svg" width="220" height="47" alt="Логотип Седона">
+		  </a>
+		  <nav class="main-navigator">
+			  <ul class="site-navigation">
+				  <li><a href="info.html">Информация</a></li>
+                  <li><a href="foto&video.html">Фото и видео</a></li>
+                  <li><a href="map.html">Карта штата</a></li>
+                  <li><a href="catalog.html">Гостиницы</a></li>
+			  </ul>
+		  </nav>
+	  </header>
+	  <main class="sedona-hotels">
+		  <h1 class="page-title">Поиск жилья в Седоне</h1>
+		  <section  class="filters">
+			  <h2 class="visually-hidden">Фильтр отелей</h2>
+			  <form class="filter" method="get">
+				  <fieldset>
+					  <legend>Инфраструктура:</legend>
+					  <ul>
+						  <li>
+						      <input type="checkbox" name="pool" id="filter-pool">
+						      <label for="filter-pool">Басеин</label>
+						  </li>
+						  <li>
+						      <input type="checkbox" name="parking" id="filter-parking">
+						      <label for="filter-parking">Парковка</label>
+						  </li>
+						  <li>
+						      <input type="checkbox" name="wifi" id="filter-wifi">
+						      <label for="filter-wifi">WI-FI</label>
+						  </li>
+					  </ul>
+				  </fieldset>
+				  <fieldset>
+					  <legend>Тип жилья:</legend>
+					  <ul>
+						  <li>
+						      <input type="checkbox" name="hotel" id="filter-hotel">
+						      <label for="filter-hotel">Гостиница</label>
+						  </li>
+						  <li>
+						      <input type="checkbox" name="motel" id="filter-motel">
+						      <label for="filter-motel">Мотель</label>
+						  </li>
+						  <li>
+						      <input type="checkbox" name="apartments" id="filter-apartments">
+						      <label for="filter-apartments">Апартаменты</label>
+						  </li>
+					  </ul>
+				  </fieldset>
+				  <button type="submit">Показать</button>
+			  </form>
+		  </section>
+		  <section class="sorting">
+			  <h2 class="sorting-title">Сортировка:</h2>
+			  <ul class="sort-by">
+				  <li><a href="#">По цене</a></li>
+				  <li><a href="#">По типу</a></li>
+				  <li><a href="#">По рейтингу</a></li>
+				  <li><a href="#" aria-label="Рейтинг по возрастанию">
+					  <img src="img/icon-up-dir.svg"></a>
+				  </li>
+				  <li><a href="#" aria-label="Рейтинг по убыванию">
+					  <img src="img/icon-down-dir.svg"></a>
+				  </li>
+			  </ul>
+		  </section>
+		  <section class="search-results">
+			  <h2 class="visually-hidden">Результат поиска:</h2>
+			  <p class="results">Найдено:3</p>
+			  <ul class="catalog-list">
+                  <li class="catalog-item">
+                  <h3>
+	                  <a href="#">Amara Resort & Spa</a>
+                  </h3>
+                  <img class="catalog-item-image" src="img/hotel-1.jpg" width="135" height="90" alt="Фото отеля Amara Resort & Spa">
+                  <p class="type-and-price">Гостиница от 4000р</p>
+                  <p class="rating">
+	                  <ul class="rating-star">
+		                  <li><img src="img/star.svg" alt="Звезда"></li>
+		                  <li><img src="img/star.svg" alt="Звезда"></li>
+		                  <li><img src="img/star.svg" alt="Звезда"></li>
+		                  <li><img src="img/star.svg" alt="Звезда"></li>
+	                  </ul>
+	                  <div class="rating-num">Рейтинг:8,5</div>
+	                  <p class="more-tobook">
+		                  <a class="more" href="#">Подробнее</a>
+		                  <a class="to-book" href="#">Забронтровать</a>
+	                  </p>
+                  </p>
+                  </li>
+                  
+                  <li class="catalog-item">
+                  <h3>
+	                  <a href="#">Desert Quail Inn</a>
+                  </h3>
+                  <img class="catalog-item-image" src="img/hotel-2.jpg" width="135" height="90" alt="Фото отеля Amara Resort & Spa">
+                  <p class="type-and-price">Мотель от 3000р</p>
+                  <p class="rating">
+	                  <ul class="rating-star">
+		                  <li><img src="img/star.svg" alt="Звезда"></li>
+		                  <li><img src="img/star.svg" alt="Звезда"></li>
+		                  <li><img src="img/star.svg" alt="Звезда"></li>
+	                  </ul>
+	                  <div class="rating-num">Рейтинг:8,9</div>
+	                  <p class="more-tobook">
+		                  <a class="more" href="#">Подробнее</a>
+		                  <a class="to-book" href="#">Забронтровать</a>
+	                  </p>
+                  </p>
+                  </li>
+                  
+                  <li class="catalog-item">
+                  <h3>
+	                  <a href="#">Villas at Poco Diablo</a>
+                  </h3>
+                  <img class="catalog-item-image" src="img/hotel-3.jpg" width="135" height="90" alt="Фото отеля Amara Resort & Spa">
+                  <p class="type-and-price">Апартаменты от 2000р</p>
+                  <p class="rating">
+	                  <ul class="rating-star">
+		                  <li><img src="img/star.svg" alt="Звезда"></li>
+		                  <li><img src="img/star.svg" alt="Звезда"></li>
+	                  </ul>
+	                  <div class="rating-num">Рейтинг:9,2</div>
+	                  <p class="more-tobook">
+		                  <a class="more" href="#">Подробнее</a>
+		                  <a class="to-book" href="#">Забронтровать</a>
+	                  </p>
+                  </p>
+                  </li>
+			  </ul>
+		  </section>
+	  </main>
+	  <footer class="main-footer">
+		  <p class="hashtag">#Visitsedona</p>
+		  <div class="footer-social">
+			  <ul>
+				  <li><a class="social-button" href="vk.html" aria-label="Переход на страницу в Вконтакте">Вконтакте</a></li>
+                  <li><a class="social-button" href="fb.html" aria-label="Переход на страницу в Фейсбук">Фейсбук</a></li>
+                  <li><a class="social-button" href="instagram.html" aria-label="Переход на страницу в Инстаграм">Инстаграм</a></li>
+			  </ul>
+		  </div>
+		  <div class="developer">
+			  <a class="footer-logo" href="https://htmlacademy.ru/intensive/htmlcss">
+				  <p class="website-by">website by</p>
+				  <img src="img/logo_htmlacademy.svg" width="300" height="300" alt="Логотип htmlacademy">
+			  </a>
+		  </div>
+	  </footer>
+  </body>
+</html>
+                  
+                  
+		                  
+		                  
+				  
+				  
+				    
+		
